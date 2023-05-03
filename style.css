@@ -1,0 +1,122 @@
+/* HEADER */
+.header {
+    text-align: center;
+    background-color: maroon;
+    color: gold;
+}
+
+#headerPic {
+    height: 250px;
+    border: 1px solid gold;
+    margin: 30px;
+}
+
+h1 {
+    font-family: 'Cookie', cursive;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 0px;
+}
+
+/* NAVBAR */
+h3 {
+    font-family: 'Lobster Two', cursive;
+    color: maroon;
+
+}
+
+.custom-toggler {
+    border-color: gold; 
+}
+.navbar-toggler-icon {
+    background-image: url(
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 215, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");        
+
+}
+
+.navbar-custom,
+.dropdown-menu {
+    background-color: maroon;
+    border: 3px solid rgb(255, 217, 0);
+}
+
+.navbar-brand, .nav-link,
+.dropdown-item,
+.dropdown-divider
+    {
+    color: gold;
+    font-family: 'Righteous', cursive;
+}
+
+.navbar-brand:hover {
+    color: gold;
+}
+.nav-link:hover,
+.dropdown-item:hover
+
+    {
+    color: maroon;
+    background-color: gold;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+#navbar li.active {
+    border-bottom: 3px solid gold;
+}
+
+/* VIEW */
+.view {
+    padding: 30px;
+}
+
+#gradPic {
+    height: 500px;
+    border: 3px solid maroon;
+    margin: 10px;
+}
+
+p, .row {
+    font-family: 'Comfortaa', cursive;
+    color: maroon;
+}
+
+
+#jt, .col-md-3 /*.listTitle*/ {
+ background-color: maroon;
+    color: gold;
+    font-weight: bold;
+}
+
+/* .col-md, .col {
+    border-left: 3px solid maroon;
+} */
+
+.listTitle {
+    list-style: none;
+    text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    background-color: maroon;
+    padding: 50px;
+}
+
+#icon {
+    size: 50px;
+    text-decoration: none;
+    color: gold;
+    padding: 5px;
+
+}
+
+#icon:hover {
+    color: white;
+}
